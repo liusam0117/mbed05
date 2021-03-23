@@ -11,6 +11,7 @@ int main()
     uLCD.background_color(0xFFFFFF);
     uLCD.text_width(1); //4X size text
     uLCD.text_height(1);
+    uLCD.textbackground_color(WHITE);
     uLCD.color(BLUE);
     uLCD.locate(4,2);
     uLCD.printf("108060004\n"); //Default Green on black text
